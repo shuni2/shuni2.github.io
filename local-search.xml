@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>ET-BERT 复现</title>
+    <link href="/2023/10/25/ET-BERT-fuxian/"/>
+    <url>/2023/10/25/ET-BERT-fuxian/</url>
+    
+    <content type="html"><![CDATA[<p>数据下载：<br>readme中提示如下：<br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024200536.png" alt="image.png"></p><p>这两个链接的内容如下：</p><h2 id="cstnet-tls1-3-dataset"><a href="#cstnet-tls1-3-dataset" class="headerlink" title="cstnet-tls1.3 dataset"></a>cstnet-tls1.3 dataset</h2><p><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024200806.png" alt="image.png"></p><h3 id="flow-dataset"><a href="#flow-dataset" class="headerlink" title="flow_dataset"></a>flow_dataset</h3><p><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024200940.png" alt="image.png"><br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024201044.png" alt="image.png"></p><h3 id="packet-dataset"><a href="#packet-dataset" class="headerlink" title="packet_dataset"></a>packet_dataset</h3><p><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024201128.png" alt="image.png"><br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024201139.png" alt="image.png"></p><h2 id="fine-tuning-dataset"><a href="#fine-tuning-dataset" class="headerlink" title="fine-tuning_dataset"></a>fine-tuning_dataset</h2><p><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024200709.png" alt="image.png"><br>也就是说，他们都有flow和packet两种格式，然后fine-tuning_dataset下还有个文件夹cstnet-tls1.3，其下按目录存放各个网站的pcap样本。</p><h3 id="cstnet-tls1-3-flow-zip"><a href="#cstnet-tls1-3-flow-zip" class="headerlink" title="cstnet-tls1.3_flow.zip"></a>cstnet-tls1.3_flow.zip</h3><p>其中tsv存放的是处理好的数据<br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024204658.png" alt="image.png"><br>test.tsv内，样本中读数据目测是字节。<br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024205224.png" alt="image.png"></p><h3 id="cstnet-tls1-3-packet-zip"><a href="#cstnet-tls1-3-packet-zip" class="headerlink" title="cstnet-tls1.3_packet.zip"></a>cstnet-tls1.3_packet.zip</h3><p><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024204737.png" alt="image.png"><br>类似<br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024205419.png" alt="image.png"></p><h3 id="cstnet-tls1-3目录内"><a href="#cstnet-tls1-3目录内" class="headerlink" title="cstnet-tls1.3目录内"></a>cstnet-tls1.3目录内</h3><p>大量pcap<br><img src="https://pic-bed-1258913394.cos.ap-nanjing.myqcloud.com/obsidian/20231024204904.png" alt="image.png"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>ET-BERT 文章翻译</title>
     <link href="/2023/10/25/ET-BERT/"/>
     <url>/2023/10/25/ET-BERT/</url>
